@@ -1,5 +1,4 @@
-package model;
-
+package command;
 import controller.AppController;
 import java.io.FileWriter;
 import java.io.IOException;

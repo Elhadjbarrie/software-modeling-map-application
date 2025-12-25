@@ -1,5 +1,4 @@
-package model;
-
+package command;
 public class CopyParamsCommand extends Command {
 
     private double zoom;

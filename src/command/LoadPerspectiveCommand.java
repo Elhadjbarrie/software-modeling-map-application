@@ -1,5 +1,4 @@
-package model;
-
+package command;
 import controller.AppController;
 import java.nio.file.Files;
 import java.nio.file.Paths;

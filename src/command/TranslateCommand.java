@@ -1,5 +1,4 @@
-package model;
-
+package command;
 public class TranslateCommand extends Command{
 
     private double dx;

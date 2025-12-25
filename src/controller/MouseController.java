@@ -1,8 +1,8 @@
 package controller;
 
 import model.Perspective;
-import model.TranslateCommand;
-import model.ZoomCommand;
+import command.TranslateCommand;
+import command.ZoomCommand;
 
 public class MouseController {
 

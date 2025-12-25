@@ -1,5 +1,4 @@
-package model;
-
+package command;
 public class PasteParamsCommand extends Command {
 
     private double ancienZoom;

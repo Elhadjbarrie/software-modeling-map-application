@@ -2,7 +2,7 @@ package command;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import model.ZoomCommand;
+import command.ZoomCommand;
 import org.junit.jupiter.api.Test;
 
 import model.Perspective;

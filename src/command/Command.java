@@ -1,5 +1,4 @@
-package model;
-
+package command;
 public abstract class Command {
 
     protected Perspective perspective;

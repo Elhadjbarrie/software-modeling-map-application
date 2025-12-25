@@ -1,5 +1,4 @@
-package model;
-
+package command;
 public class ZoomCommand extends Command{
 
     private double facteurZoom;
