@@ -130,12 +130,33 @@ These diagrams ensure traceability between the conceptual design and the impleme
 
 ---
 
+## Testing
+
+The project includes a set of unit and functional tests developed using **JUnit 5**.
+These tests were implemented as part of an academic laboratory (TP2) and aim to
+validate the core behaviors of the system.
+
+The test suite covers in particular:
+- Zoom and translation commands
+- Undo / Redo mechanisms managed by the command history
+- Copy and paste of visualization parameters
+- Saving and loading of a perspective state
+
+The presence of these tests ensures that the implementation is consistent with
+the designed architecture and that key user interactions behave as expected.
+
+
 ## Conclusion
 
 This project demonstrates a rigorous application of object-oriented modeling
 principles, design patterns, and architectural best practices. The resulting
 system is modular, extensible, and well-aligned with the requirements of
 professional software engineering and advanced academic work.
+
+The inclusion of a dedicated test suite further strengthens the reliability of
+the implementation by validating key user interactions and behavioral
+scenarios. This combination of design, implementation, and testing reflects a
+methodical and disciplined software engineering approach.
 
 The architecture naturally supports future extensions such as additional view
 types, new commands, enhanced persistence strategies, and improved user
